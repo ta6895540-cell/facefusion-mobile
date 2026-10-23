@@ -24,9 +24,7 @@ jobs:
 
     - name: Create Mock QNN SDK
       run: |
-        mkdir -p /workspace/toolchains/qairt/current/include/QNN
         mkdir -p work/toolchains/qairt/current/include/QNN
-        touch /workspace/toolchains/qairt/current/include/QNN/QnnTypes.h
         touch work/toolchains/qairt/current/include/QNN/QnnTypes.h
 
     - name: Build with Gradle
